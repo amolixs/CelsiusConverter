@@ -8,9 +8,9 @@ git clone https://github.com/amolixs/CelsiusConvertiseur
 
 ### Prérequis
 
-###Java SE Development Kit 11
+### Java SE Development Kit 11
 
-###Ubuntu et Debian
+### Ubuntu et Debian
 
 sudo apt install openjdk-11-jdk
 
@@ -22,17 +22,17 @@ se rendre sur : https://www.oracle.com/technetwork/java/javase/downloads/jdk11-d
 
 se rendre sur : https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
 
-###Window 
+### Window 
 
 se rendre sur : https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
 
-#Lancement du programme
+# Lancement du programme
 
 Aller dans le dossier ou se trouve le project
 
-###Linux
+### Linux
 
-###Commandes : 
+### Commandes : 
 
 cd CelsiusConvertiseur/
 
@@ -40,4 +40,4 @@ cd prog/
 
 java CelsiusConvertiseur.jar
 
-#Utilisation
+# Utilisation
