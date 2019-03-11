@@ -2,6 +2,8 @@ package be.amolixs.menu;
 
 import java.util.Scanner;
 
+import be.amolixs.convertisseur.Convertisseur;
+
 /**
  * Classe qui gère le menu du programme.
  * @version 1.0
@@ -9,6 +11,15 @@ import java.util.Scanner;
  */
 
 public class Menu {
+	/**
+	 * Object qui permet de gérer les conversions.
+	 * @author amolixs
+	 */
+	private Convertisseur convertisseur;
+	
+	public Menu() {
+		this.convertisseur = new Convertisseur();
+	}
 	
 	/**
 	 * Méthode qui permet de lancer le menu
@@ -31,7 +42,7 @@ public class Menu {
 		System.out.println("1- Convertisseur Celsius - Fahrenheit");
 		System.out.println("2- Convertisseur Fahrenheit - Celsius");
 		System.out.println("3- Quit");
-		System.out.println("[*] Votre choix : ");
+		System.out.print("[*] Votre choix : ");
 	} 
 	
 	/**
@@ -53,7 +64,22 @@ public class Menu {
 	 * 		Choix entré par l'utilisateur
 	 */
 	void choiceManagement(int choice) {
+		Scanner sc = new Scanner(System.in);
+		float temp;
 		switch (choice) {
+			case 1:
+				System.out.print("[*] Entrez la température à convertir : ");
+				temp = sc.nextFloat();
+				temp = convertisseur.convertFahrenheit(temp);
+				System.out.println("[+] Température convertie : " + temp + "°F");
+				
+			case 2:
+				System.out.print("[*] Entrez la température à convertir : ");
+				temp = sc.nextFloat();
+				temp = convertisseur.convertCelsius(temp);
+				System.out.println("[+] Température convertie : " + temp + "°C");
+			break;	
+		
 			case 3:
 				System.out.println("Merci et à bientot :) !");
 			break;
