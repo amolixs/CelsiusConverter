@@ -36,8 +36,8 @@ Aller dans le dossier ou se trouve le project
 
 cd CelsiusConvertiseur/
 
-cd prog/
+java -jar CelsiusConvertiseur.jar
 
-java CelsiusConvertiseur.jar
+## Documentations
 
-
+Vous retrouverez la documentation du code dans le fichier doc.
