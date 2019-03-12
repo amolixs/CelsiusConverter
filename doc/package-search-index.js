@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"be.amolixs.app"},{"l":"be.amolixs.convertisseur"},{"l":"be.amolixs.main"},{"l":"be.amolixs.menu"}]

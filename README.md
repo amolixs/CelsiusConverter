@@ -18,7 +18,7 @@ ou
 
 se rendre sur : https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
 
-###Linux 
+### Linux 
 
 se rendre sur : https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
 
@@ -40,4 +40,4 @@ cd prog/
 
 java CelsiusConvertiseur.jar
 
-# Utilisation
+
